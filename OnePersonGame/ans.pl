@@ -3,9 +3,6 @@
 use strict;
 use warnings;
 
-use Clone qw(clone);
-use Storable qw(dclone);
-
 my $input = shift;
 open my $in, "<", $input or die "$!";
 
